@@ -141,5 +141,8 @@ div iframe {
 }
 
 div#student-container a:hover {
-  color: lightgrey; 
+  color: rgb(219, 232, 255); 
+}
+div#student-container a {
+  color: rgb(153, 192, 255); 
 }
