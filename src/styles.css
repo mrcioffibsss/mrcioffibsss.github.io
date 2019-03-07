@@ -28,7 +28,7 @@ h3 {
 /* Head CSS */
 div.head {
   background-color: white;
-  font-size: 30px;
+  font-size: 50px;
   padding-top: 60px;
 }
 
@@ -47,7 +47,7 @@ div.head div.logo p {
 
 div.head div.logo span {
   font-family: "Spicy Rice", cursive;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 div.head div.nav {
@@ -149,4 +149,17 @@ div#student-container a:hover {
 }
 div#student-container a {
   color: rgb(153, 192, 255); 
+}
+div.body h1 {
+  font-size: 56px;
+}
+div.body p {
+  margin-top: 18px;
+  font-size: 32px;
+}
+div.body p a {
+  font-size: 24px;
+}
+div.body h1 {
+  margin-bottom: 12px;
 }
