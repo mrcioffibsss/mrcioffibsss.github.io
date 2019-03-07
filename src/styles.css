@@ -1,0 +1,137 @@
+/* General CSS */
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+  margin: 0px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0px;
+  display: inline-block;
+}
+
+/* Head CSS */
+div.head {
+  background-color: white;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+div.head div {
+  max-width: 50%;
+  display: inline-block;
+}
+
+div.head div.logo {
+  font-family: "Dancing Script", cursive;
+}
+
+div.head div.logo p {
+  margin: 0px;
+}
+
+div.head div.logo span {
+  font-family: "Spicy Rice", cursive;
+  font-size: 50px;
+}
+
+div.head div.nav {
+  margin-left: 400px;
+  font-weight: bold;
+}
+
+div.head div.nav ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+div.head div.nav a {
+  margin-right: 10px;
+}
+
+/* Body CSS */
+div.body {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+div.body h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+div.body div.welcome {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+div.body img.school {
+  width: 70%;
+  height: 70%;
+}
+
+/* Foot CSS */
+div.foot {
+  background-color: #393939;
+  font-size: 18px;
+  color: lightgray;
+  padding-top: 50px;
+  overflow: auto;
+  display: block;
+}
+
+div.foot a {
+  font-size: 18px;
+  color: lightgray;
+}
+
+div.foot-container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+div.connect,
+div.contact,
+div.copyright {
+  text-align: left;
+  align: top;
+  display: inline-block;
+  width: 20%;
+  margin: 0px 20px;
+}
+
+div.connect {
+  float: left;
+  width: 10%;
+}
+
+div.contact,
+div.copyright {
+  margin-right: 0;
+  width: 30%;
+}
+
+/* iFrame Student Work */
+iframe {
+  width: 1px;
+  min-width: 100%;
+}
+#student-container {
+  display: inline-block;
+}
