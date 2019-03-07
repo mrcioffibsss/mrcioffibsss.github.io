@@ -127,7 +127,7 @@ div.copyright {
   width: 30%;
 }
 
-/* iFrame Student Work */
+/* Student Work */
 #student-content {
   padding-top: 1em;
 }
@@ -138,4 +138,8 @@ div.copyright {
 div iframe {
   border: 0;
   overflow: hidden;
+}
+
+div#student-container a:hover {
+  color: lightgrey; 
 }
