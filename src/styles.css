@@ -128,10 +128,14 @@ div.copyright {
 }
 
 /* iFrame Student Work */
-iframe {
-  width: 1px;
-  min-width: 100%;
+#student-content {
+  padding-top: 1em;
 }
 #student-container {
   display: inline-block;
+  overflow: hidden;
+}
+div iframe {
+  border: 0;
+  overflow: hidden;
 }
